@@ -10,7 +10,7 @@ namespace po03
     {
         static void Main(string[] args)
         {
-            
+            sdfgg
         }
     }
 }
