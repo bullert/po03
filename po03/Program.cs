@@ -10,7 +10,10 @@ namespace po03
     {
         static void Main(string[] args)
         {
-            sdfgg
+            var student = new Student("imie", "nazwisko");
+
+            Console.WriteLine(string.Format("Imie: {0}\nNazwisko: {1}", student.Imie, student.Nazwisko));
+            Console.ReadKey();
         }
     }
 }
