@@ -8,5 +8,6 @@ namespace po03.Gatunki
 {
     class Rock : Gatunek
     {
+        Rock(string brzmienie = "rockowe") : base(brzmienie) { }
     }
 }

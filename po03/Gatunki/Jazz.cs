@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace po03.Gatunki
 {
     class Jazz : Gatunek
-    {
+    {        
+        Jazz(string brzmienie = "jazzowe") : base(brzmienie) { }
     }
 }

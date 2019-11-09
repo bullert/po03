@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace po03.Gatunki
 {
     class Pop : Gatunek
-    {
+    {        
+        Pop(string brzmienie = "popowe") : base(brzmienie) { }
     }
 }

@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace po03
 {
-    class Gatunek
+    abstract class Gatunek
     {
+        private readonly string brzmienie;
+
+        protected Gatunek(string brzmienie)
+        {
+            this.brzmienie = brzmienie;
+        }
+
+        public void Play()
+        {
+            Console.WriteLine(string.Format("brzmienie {0}", brzmienie));
+        }
     }
 }

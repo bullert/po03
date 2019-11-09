@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace po03.Gatunki
 {
     class Rap : Gatunek
-    {
+    {        
+        Rap(string brzmienie = "rapowe") : base(brzmienie) { }
     }
 }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace po03.Gatunki
 {
     class Klasyczny : Gatunek
-    {
+    {        
+        Klasyczny(string brzmienie = "klasyczne") : base(brzmienie) { }
     }
 }
